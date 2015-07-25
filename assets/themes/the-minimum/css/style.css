@@ -226,6 +226,7 @@ pre {
   position: relative;
   top: 2px;
 }
+
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
@@ -301,7 +302,7 @@ pre {
   padding-left: 0;
 }
 .unit-article ul {
-  list-style: square;
+  list-style: none;
 }
 .unit-article ol {
   list-style: decimal;
@@ -753,7 +754,7 @@ pre {
   }
 }
 /*
-	Not that old computer layout 
+	Not that old computer layout
 */
 @media only screen and (min-width: 1280px) {
   .the-header .unit-inner {
@@ -799,7 +800,7 @@ pre {
   }
 }
 /*
-	Huge-screen layout 
+	Huge-screen layout
 */
 @media only screen and (min-width: 1410px) {
   .the-header .unit-inner {
@@ -849,4 +850,20 @@ pre {
     margin-left: 360px;
     margin-right: 360px;
   }
+}
+
+/* 首页列表样式 */
+.articles-list li a {
+  display: block;
+  line-height: 80px;
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: center;
+  border-bottom: 1px solid #ecf0f1;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.articles-list li a:hover {
+  background: #F5F5F5;
 }
