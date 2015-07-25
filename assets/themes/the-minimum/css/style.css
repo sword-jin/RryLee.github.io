@@ -638,12 +638,12 @@ pre {
   float: right;
 }
 .ie .layout-page .unit-body .unit-body-inner {
-  width: 43.125em;
+  width: 50.125em;
   margin-left: auto;
   margin-right: auto;
 }
 .ie .layout-page .unit-body .article-list {
-  width: 43.125em;
+  width: 50.125em;
 }
 .ie .layout-page .unit-body .article-list .meta {
   width: 20.625em;
@@ -723,13 +723,13 @@ pre {
 */
 @media only screen and (min-width: 768px) {
   .the-header .unit-inner {
-    width: 43.125em;
+    width: 50.125em;
   }
   .unit-article .unit-head-inner,
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
-    width: 43.125em;
+    width: 50.125em;
   }
   .unit-article .unit-head-inner .meta {
     margin-bottom: 0;
@@ -738,10 +738,10 @@ pre {
     float: right;
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 43.125em;
+    width: 50.125em;
   }
   .layout-page .unit-body .article-list {
-    width: 43.125em;
+    width: 50.125em;
   }
   .layout-page .unit-body .article-list .meta {
     margin-bottom: 0;
@@ -750,7 +750,7 @@ pre {
     float: right;
   }
   .the-footer .unit-foot {
-    width: 43.125em;
+    width: 50.125em;
   }
 }
 /*
@@ -774,7 +774,7 @@ pre {
   .unit-article .entry-content,
   .unit-article .misc-content,
   .unit-article .unit-foot-inner {
-    width: 43.125em;
+    width: 50.125em;
   }
   .unit-article .unit-foot .pagination {
     float: left;
@@ -787,10 +787,10 @@ pre {
     width: 20.625em;
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 43.125em;
+    width: 50.125em;
   }
   .layout-page .unit-body .article-list {
-    width: 43.125em;
+    width: 50.125em;
   }
   .layout-page .unit-body .article-list .meta {
     width: 20.625em;
@@ -807,13 +807,13 @@ pre {
     width: 88.125em;
   }
   .the-header .logo {
-    width: 43.125em;
+    width: 50.125em;
   }
   .the-header .nav-global {
-    width: 43.125em;
+    width: 50.125em;
   }
   .unit-article .unit-head-inner, .unit-article .entry-content, .unit-article .misc-content {
-    width: 43.125em;
+    width: 50.125em;
   }
   .unit-article .unit-foot-inner {
     width: 88.125em;
@@ -826,10 +826,10 @@ pre {
     width: 9.375em;
   }
   .layout-page .unit-body .unit-body-inner {
-    width: 43.125em;
+    width: 50.125em;
   }
   .layout-page .unit-body .article-list {
-    width: 43.125em;
+    width: 50.125em;
   }
   .layout-page .unit-body .article-list .meta {
     width: 20.625em;
@@ -856,7 +856,7 @@ pre {
 .articles-list li a {
   display: block;
   line-height: 80px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: sans-serif;
   text-align: center;
   border-bottom: 1px solid #ecf0f1;
