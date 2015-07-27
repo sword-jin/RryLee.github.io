@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows下Homestead环境部署"
+feature-img: "img/laravel-homestead1.png"
 ---
 最近因为一些原因需要转移到 `Homestead` 上开发，折腾了差不多一天，Windows下总算是装部署好了 `Homestead`，总体来说，windows下相比 mac/linux 安装要复杂那么一点点。想要安装的同学也不用慌，坑也被我踩的差不多了，只需要跟着下面一步步的做就可以了。
 
@@ -111,6 +112,3 @@ title: "Windows下Homestead环境部署"
 最后，安装参考这篇文章 [link](http://sherriflemings.blogspot.ca/2015/03/laravel-homestead-on-windows-8.html)，貌似国内进不去，需要参考的同学自行解决！
 
 文章地址发表在我的[博客](http://rrylee.github.io/laravel/2015/07/25/Homestead搭建/)。
-
-
-

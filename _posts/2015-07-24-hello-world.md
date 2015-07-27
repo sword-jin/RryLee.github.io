@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "完成博客的搭建"
+feature-img: "img/sample_feature_img.png"
 ---
 **历经一天的时间，完成博客的搭建，页面初步部署完成。**
 

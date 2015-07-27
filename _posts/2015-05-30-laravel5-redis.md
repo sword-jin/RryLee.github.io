@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "php安装redis拓展以及laravel5中redis缓存的使用"
+feature-img: "img/redis-1.png"
 ---
 #### 记录下redis的学习使用，方便以后换了平台之后查询，已经分享下使用过程
 
