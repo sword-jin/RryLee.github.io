@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "php安装redis拓展以及laravel5中redis缓存的使用"
-description: ""
-category: "Laravel"
-tags: ['Redis', 'Laravel']
 ---
-{% include JB/setup %}
-
 #### 记录下redis的学习使用，方便以后换了平台之后查询，已经分享下使用过程
 
 **首先，PHP安装redis扩展，百度谷歌的好多解决方案已经老了，这里详细记录下windows的安装过程，因为linux下编译安装拓展是很方便的。**

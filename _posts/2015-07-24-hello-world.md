@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "完成博客的搭建"
-description: ""
-category: "Daily"
-tags: ['环境']
 ---
-{% include JB/setup %}
-
 **历经一天的时间，完成博客的搭建，页面初步部署完成。**
 
 下面是博客的基本配置信息

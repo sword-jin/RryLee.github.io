@@ -1,12 +1,7 @@
 ---
 layout: post
 title: "Windows下Homestead环境部署"
-description: ""
-category: "Laravel"
-tags: ['环境','Laravel']
 ---
-{% include JB/setup %}
-
 最近因为一些原因需要转移到 `Homestead` 上开发，折腾了差不多一天，Windows下总算是装部署好了 `Homestead`，总体来说，windows下相比 mac/linux 安装要复杂那么一点点。想要安装的同学也不用慌，坑也被我踩的差不多了，只需要跟着下面一步步的做就可以了。
 
 下面是我详细的安装过程：

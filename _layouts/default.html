@@ -1,6 +1,11 @@
----
-theme :
-  name : the-minimum
----
-{% include JB/setup %}
-{% include themes/the-minimum/default.html %}
+<!DOCTYPE html>
+<html class="no-js">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
