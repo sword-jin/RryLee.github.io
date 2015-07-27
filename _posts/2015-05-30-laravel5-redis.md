@@ -8,7 +8,7 @@ title: "php安装redis拓展以及laravel5中redis缓存的使用"
 
 看下自己php版本信息里面的这几个环境参数，拓展分好多不同版本编译的，但是寻找自己对应的拓展下载
 
-![file](http://img0.ph.126.net/4-4Amj8GpIclBoFvpEygHA==/6630331092909368730.jpg)
+![file](http://i.niupic.com/images/2015/07/28/55b670cc6e2bc.jpg)
 
 * [igbinary 拓展](http://windows.php.net/downloads/pecl/releases/igbinary/1.2.1/)
 * [redis 拓展](http://windows.php.net/downloads/pecl/snaps/redis/2.2.5/)
