@@ -46,32 +46,35 @@ feature-img: "img/redis-1.png"
 
 redis的一些配置在database.php在中可以看到
 
-    'redis' => [
+```php
+'redis' => [
 
-        'cluster' => false,
+    'cluster' => false,
 
-        'default' => [
-            'host'     => '127.0.0.1',
-            'port'     => 6379,
-            'database' => 0,
-        ],
-
+    'default' => [
+        'host'     => '127.0.0.1',
+        'port'     => 6379,
+        'database' => 0,
     ],
+
+],
+```
 
 这里使用默认的就可以了，接着去测试一下使用情况
 
-    Route::get('test', function(){
-        if (\Cache::has('test')) {
-            echo '存在chche,读取'.'<br />';
-            echo \Cache::get('test');
-        } else{
-            echo '不存在cache,现在创建'.'<br />';
-            $time = \Carbon\Carbon::now()->addMinutes(10);
-            $redis = \Cache::add('test', '我是缓存资源', $time);
-            echo \Cache::get('test');
-        }
+```php
+Route::get('test', function(){
+    if (\Cache::has('test')) {
+        echo '存在chche,读取'.'<br />';
+        echo \Cache::get('test');
+    } else{
+        echo '不存在cache,现在创建'.'<br />';
+        $time = \Carbon\Carbon::now()->addMinutes(10);
+        $redis = \Cache::add('test', '我是缓存资源', $time);
+        echo \Cache::get('test');
     }
-
+}
+```
 第一次进去 http:localhots:8000/test 地址，会看到
 
     不存在cache,现在创建
