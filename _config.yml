@@ -65,7 +65,7 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed
