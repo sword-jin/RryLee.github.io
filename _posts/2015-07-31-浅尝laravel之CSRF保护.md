@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "php 用户认证模块笔记"
+feature-img: "img/googel.jpg"
 ---
 
 之前看到一篇关于跨站攻击的文章，于是乎就想了解下 laravel 中关于 CSRF( Cross-Site-Request-Forgery) 保护是怎样完成的。
