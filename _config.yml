@@ -41,7 +41,7 @@ theme:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: RryLee-Blog
+  disqus_shortname: RryLee
   katex: true # Enable if using math markup
 
   # Localization strings
