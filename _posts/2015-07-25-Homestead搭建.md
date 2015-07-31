@@ -133,6 +133,12 @@ feature-img: "img/laravel-homestead1.png"
         - curd
         - oshare
 
-一目了然吧，不过每次添加之后需要在 Homestead 目录下执行 `vagrant provision`
+一目了然吧，不过每次添加之后需要在项目文件目录下执行
 
-OK!
+    composer require laravel/homestead
+
+    php vendor/bin/homestead make
+
+然后在 Homestead 目录下 `vagrant provision`
+
+以上参考官方文档，有不足之处可以提出改进
