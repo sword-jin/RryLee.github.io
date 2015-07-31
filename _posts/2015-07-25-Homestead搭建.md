@@ -112,3 +112,27 @@ feature-img: "img/laravel-homestead1.png"
 最后，安装参考这篇文章 [link](http://sherriflemings.blogspot.ca/2015/03/laravel-homestead-on-windows-8.html)，貌似国内进不去，需要参考的同学自行解决！
 
 文章地址发表在我的[博客](http://rrylee.github.io/laravel/2015/07/25/Homestead搭建/)。
+
+# 补充 #
+添加新的站点， `homestead edit` 添加新的目录和数据库名，如下
+
+    folders:
+        - map: E:/Projects
+          to: /home/vagrant/Code
+
+    sites:
+        - map: crud.dev
+          to: /home/vagrant/Code/crud-dev/public
+        - map: laravel.dev
+          to: /home/vagrant/Code/laravel-dev/public
+        - map: oshare.dev
+          to: /home/vagrant/Code/oshare-dev/public
+
+    databases:
+        - homestead
+        - curd
+        - oshare
+
+一目了然吧，不过每次添加之后需要在 Homestead 目录下执行 `vagrant provision`
+
+OK!
