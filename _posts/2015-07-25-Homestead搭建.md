@@ -111,7 +111,7 @@ feature-img: "img/laravel-homestead1.png"
 
 最后，安装参考这篇文章 [link](http://sherriflemings.blogspot.ca/2015/03/laravel-homestead-on-windows-8.html)，貌似国内进不去，需要参考的同学自行解决！
 
-文章地址发表在我的[博客](http://rrylee.github.io/laravel/2015/07/25/Homestead搭建/)。
+文章地址发表在我的[博客](http://rrylee.github.io/2015/07/25/Homestead搭建/)。
 
 # 补充 #
 添加新的站点， `homestead edit` 添加新的目录和数据库名，如下
