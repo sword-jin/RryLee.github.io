@@ -1,71 +1,26 @@
-# SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rrylee.github.io" # the base hostname & protocol for your site
+# Site settings
+title: RryLee -- 知易行难
+email: RryLee1994@gmail.com
+description: 成就源于热爱
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 
-# THEME-SPECIFIC CONFIGURATION
-theme:
-  # Meta
-  title: RryLee -- 知易行难
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
-  description: "RryLee 的博客,angular,angular,php" # used by search engines
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  RryLee
+permalink: /:year/:month/:day/:title/
 
-  # Header and footer text
-  header_text: >
-     <p>成就源于热爱</p>
-  header_text_feature_image:
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+# Build settings
+markdown: kramdown
 
-  # Icons
-  rss: true
-  email_address: #rrylee@yeah.net
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: "rrylee"
-  google_plus:
-  instagram:
-  linkedin:  # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: #"twitter"
-  wordpress:
-  youtube:
+paginate: 10
+paginate_path: "page:num"
 
-  # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: true
-  katex: true # Enable if using math markup
-
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "继续阅读"
-
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-
-  # Post navigation
-  post_navigation: true
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# BUILD SETTINGS
-markdown: redcarpet
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: :compressed
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false

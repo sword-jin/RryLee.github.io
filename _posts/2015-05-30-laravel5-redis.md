@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "php安装redis拓展以及laravel5中redis缓存的使用"
-feature-img: "img/redis-1.png"
+title:  "php安装redis拓展以及laravel5中redis缓存的使用"
+date:   2015-05-30 00:06:05
+categories: 环境
+excerpt: php安装redis拓展以及laravel5中redis缓存的使用
 ---
-#### 记录下redis的学习使用，方便以后换了平台之后查询，已经分享下使用过程
 
-**首先，PHP安装redis扩展，百度谷歌的好多解决方案已经老了，这里详细记录下windows的安装过程，因为linux下编译安装拓展是很方便的。**
+## 记录下redis的学习使用，方便以后换了平台之后查询，已经分享下使用过程
+
+首先，PHP安装redis扩展，百度谷歌的好多解决方案已经老了，这里详细记录下windows的安装过程，因为linux下编译安装拓展是很方便的。
 
 看下自己php版本信息里面的这几个环境参数，拓展分好多不同版本编译的，但是寻找自己对应的拓展下载
 
@@ -46,35 +49,32 @@ feature-img: "img/redis-1.png"
 
 redis的一些配置在database.php在中可以看到
 
-```php
-'redis' => [
+    'redis' => [
 
-    'cluster' => false,
+        'cluster' => false,
 
-    'default' => [
-        'host'     => '127.0.0.1',
-        'port'     => 6379,
-        'database' => 0,
+        'default' => [
+            'host'     => '127.0.0.1',
+            'port'     => 6379,
+            'database' => 0,
+        ],
+
     ],
-
-],
-```
 
 这里使用默认的就可以了，接着去测试一下使用情况
 
-```php
-Route::get('test', function(){
-    if (\Cache::has('test')) {
-        echo '存在chche,读取'.'<br />';
-        echo \Cache::get('test');
-    } else{
-        echo '不存在cache,现在创建'.'<br />';
-        $time = \Carbon\Carbon::now()->addMinutes(10);
-        $redis = \Cache::add('test', '我是缓存资源', $time);
-        echo \Cache::get('test');
+    Route::get('test', function(){
+        if (\Cache::has('test')) {
+            echo '存在chche,读取'.'<br />';
+            echo \Cache::get('test');
+        } else{
+            echo '不存在cache,现在创建'.'<br />';
+            $time = \Carbon\Carbon::now()->addMinutes(10);
+            $redis = \Cache::add('test', '我是缓存资源', $time);
+            echo \Cache::get('test');
+        }
     }
-}
-```
+
 第一次进去 http:localhots:8000/test 地址，会看到
 
     不存在cache,现在创建
