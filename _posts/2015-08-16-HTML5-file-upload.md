@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用HTML5特性完成上传进度监控"
+title: "HTML5文件上传前篇"
 date:   2015-08-16 00:00
 categories: HTML
 excerpt: 使用HTML5特性完成上传进度监控
