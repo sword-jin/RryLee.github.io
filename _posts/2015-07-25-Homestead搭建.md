@@ -24,7 +24,7 @@ excerpt: Windows下Homestead环境部署
 
     vagrant -v
 
-![vagrant](http://img1.ph.126.net/-IE7iADM6vjE3mfi1_WG6w==/6630556492793064871.jpg)
+![vagrant](http://ww1.sinaimg.cn/mw690/baa3278fgw1ev5q9elmmij20gh023t8m.jpg)
 
 说明安装完成，提示找不到命令的把 `vagrant` 的bin目录加入环境变量即可。
 
@@ -38,7 +38,7 @@ excerpt: Windows下Homestead环境部署
 
 等待数秒即可安装完毕，add 后面两个参数，前面的自己随便取个名称，后面的是下载来的 `.box` 文件。
 
-![](http://img2.ph.126.net/EwwV2RRXG0kyCVZzExDPow==/6619573471142949989.jpg)
+![](http://ww2.sinaimg.cn/mw690/baa3278fgw1ev5q9e54x6j20it0cagnm.jpg)
 
 接下来的操作需要用到 `git bash` 这个工具(下面全部命令都将在 bash 下执行)，下载安装好 `git` 之后打开 'git bash'，
 随便找个目录下(这里假定在桌面)，执行
@@ -47,7 +47,7 @@ excerpt: Windows下Homestead环境部署
 
 接在在 Homestead 下执行 bash init.sh
 
-![bash](http://img2.ph.126.net/YCienEzGcraLMDUg-RyZ4Q==/6630916033095854879.jpg)
+![bash](http://ww3.sinaimg.cn/mw690/baa3278fgw1ev5q9g2r1tj20it0ca0un.jpg)
 
 会在 C 盘生成一些 homestead 的配置文件，下面后修改这些配置。
 
@@ -85,11 +85,11 @@ excerpt: Windows下Homestead环境部署
 
 去我们的 E 盘中创建 Projects 文件夹，接着来我们的 Homestead 文件夹下运行 `vargrant init` 初始化，得到 Vagrantfile 文件。然后运行 `vagrant up`，第一次运行时会在 C 盘创建虚拟机文件，所以耐性等待，接下来看到我们的虚拟机启动成功。
 
-![](http://img2.ph.126.net/WXpCQ7w3bm8KqLhN4T1Rnw==/6631318454349976754.jpg)
+![](http://ww4.sinaimg.cn/mw690/baa3278fgw1ev5q9gqu8yj20it0caju1.jpg)
 
 在浏览器中打开 `localhost:8000`，看到以下画面说明，homestead已经搭建成功。
 
-![](http://img0.ph.126.net/XSKgCsCmZWXDEFWii14EkQ==/6619526192142954384.jpg)
+![](http://ww3.sinaimg.cn/mw690/baa3278fgw1ev5q9df2wpj20k309z3z2.jpg)
 
 接下来修改我们 `windows` 的host文件(不知道的同学自行百度)，在后面加上
 
@@ -105,11 +105,11 @@ excerpt: Windows下Homestead环境部署
 
 就是将主机与虚拟的这个两个目录共享，虚拟机中的目录是站点目录，可以认为是我们之前所用的 www 目录和 htdocs 目录。好了，在 Projects中新建一个laravel项目名称为 laravel-dev (这里是为什么请自行理解)，然后在打开浏览器访问 laravel.dev，就是我们熟悉的画面了。
 
-![](http://img2.ph.126.net/vkMvNVQJoa2XDVYn91vBmQ==/6630655448840072306.jpg)
+![](http://ww4.sinaimg.cn/mw690/baa3278fgw1ev5q9f696uj20ku0ebwf7.jpg)
 
 接下来可以进入我们的虚拟机看看环境什么的。通过 `vagrant ssh` 进入到虚拟机
 
-![](http://img1.ph.126.net/xP-bNldNsoh00eQkK3_3Bw==/6631426206489500026.jpg)
+![](http://ww4.sinaimg.cn/mw690/baa3278fgw1ev5q9hcse6j20it0caad7.jpg)
 
 最后，安装参考这篇文章 [link](http://sherriflemings.blogspot.ca/2015/03/laravel-homestead-on-windows-8.html)，貌似国内进不去，需要参考的同学自行解决！
 
