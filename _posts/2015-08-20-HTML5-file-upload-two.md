@@ -167,37 +167,37 @@ HTML5 文件上传部分还有以下几个重要的特性：
 
     <!-- css -->
     ...
-    #container {
-        border: 4px dashed #EEE;
-        width: 400px;
-        min-height: 300px;
-        margin: 20px auto;
-    }
-    #container.hover {
-        border: 8px dashed #8b869e;
-    }
+        #container {
+            border: 4px dashed #EEE;
+            width: 400px;
+            min-height: 300px;
+            margin: 20px auto;
+        }
+        #container.hover {
+            border: 8px dashed #8b869e;
+        }
     ...
 
     <div id="container"></div>
 
-    <!-- js -->
-    if('draggable' in document.createElement('span')){
-　　　　var container = document.getElementById('container');
-　　　　container.ondragover = function() { <!-- 文件进入（被拖拽） -->
-            this.className = 'hover';
-            return false;
-        };
-　　　　container.ondragend = function() { <!-- 拖拽完成 -->
-            this.className = '';
-            return false;
-        };
-　　　　container.ondrop = function(event) { <!-- 整个上传过程 -->
-　　　　　　event.preventDefault();
-　　　　　　this.className = '';
-　　　　　　var files = event.dataTransfer.files;
-　　　　　　// 后面的就跟之前的上传步骤大同小异了
-　　　　};
-　　}
+    <!-- Js -->
+        if('draggable' in document.createElement('span')){
+    　　　　var container = document.getElementById('container');
+    　　　　container.ondragover = function() { <!-- 文件进入（被拖拽） -->
+                this.className = 'hover';
+                return false;
+            };
+    　　　　container.ondragend = function() { <!-- 拖拽完成 -->
+                this.className = '';
+                return false;
+            };
+    　　　　container.ondrop = function(event) { <!-- 整个上传过程 -->
+    　　　　　　event.preventDefault();
+    　　　　　　this.className = '';
+    　　　　　　var files = event.dataTransfer.files;
+    　　　　　　// 后面的就跟之前的上传步骤大同小异了
+    　　　　};
+    　　}
 
 ---
 
