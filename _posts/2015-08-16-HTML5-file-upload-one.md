@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML5文件上传前篇"
+title: "HTML5文件上传前篇--进度显示"
 date:   2015-08-16 00:00
 categories: HTML
 excerpt: 使用HTML5特性完成上传进度监控
@@ -14,7 +14,7 @@ excerpt: 使用HTML5特性完成上传进度监控
     <input type="file" name="file" onchange="send();">
     <div id="debug"></div>
 
-    <script>
+    <!-- JS -->
     function send() {
         var fd = new FormData();
 
@@ -33,7 +33,6 @@ excerpt: 使用HTML5特性完成上传进度监控
         }
         xhr.send(fd);
     }
-    </script>
 
 接下来使我们服务器端的代码
 
@@ -59,8 +58,8 @@ excerpt: 使用HTML5特性完成上传进度监控
 
 修改我们你的 html 页面。
 
+    <!-- css -->
     ...
-    <style>
         #progress {
             width: 500px;
             height: 20px;
@@ -70,7 +69,6 @@ excerpt: 使用HTML5特性完成上传进度监控
             height: 100%;
             background: #5cb85c;
         }
-    </style>
     ...
     <h1>...</h1>
     <div id="progress">
