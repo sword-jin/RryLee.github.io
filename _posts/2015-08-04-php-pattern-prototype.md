@@ -176,6 +176,6 @@ excerpt: php设计模式英雄联盟篇-原型模式
 
 这里重点就在我们的构造函数中，你可以通过克隆来得到很多很多的对象。这里要记住通过 clone 方法是不会触发被克隆对象的 __construct 构造函数的。
 
-有兴趣的同学可以去 [github](https://github.com/RryLee/PrototypePattern-Examle/)上 copy 下来跑跑。未完
+有兴趣的同学可以去 [github](https://github.com/RryLee/PrototypePattern-Example/)上 copy 下来跑跑。未完
 
 
