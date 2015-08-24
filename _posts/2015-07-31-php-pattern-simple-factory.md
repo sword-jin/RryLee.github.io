@@ -85,6 +85,28 @@ excerpt: php设计模式英雄联盟篇-简单工厂
     return new AoXing();
     }
 
-这样即遵循了我们的开闭原则，又实现了我们的想法。
+这时候，需要在我们的 `HeroFactory` 中去增添代码判断，这种做法很不好，当业务变大之后会逐渐变得难以维护。这个时候需要引入另一个接口(我们之前的 HeroFactory 类就被抛弃了)。
 
-总结，简单工厂用来实例化对象，减少对客户端类的暴露，但是在一些复杂的设计中，我们的简单工厂又会显得不是那么的给力。。。未完
+    // HeroFactory
+    interface HeroFactory
+    {
+        function createHero();
+    }
+
+---
+
+    class AnniFactory implements HeroFactory
+    {
+        function createHero()
+        {
+            return new Anni;
+        }
+    }
+
+    $annifactory = new AnniFactory();
+    $anni = $annifactory->createHero();
+    $anni->skills();
+
+这样我们有新的类出现时，就不在需要去修改原来的 `HeroFactory` 代码。即遵循了我们的开闭原则，又实现了我们的想法。
+
+总结：Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock-up it.
