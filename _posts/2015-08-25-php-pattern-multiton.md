@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "php设计模式多例模式"
+title: "php设计模式-多例模式"
 date:   2015-08-25 00:20
 categories: 设计模式
-excerpt: php设计模式多例模式
+excerpt: php设计模式-多例模式
 ---
 
 维基百科中是这样介绍多例模式 [multiton pattern](https://en.wikipedia.org/wiki/Multiton_pattern)：
