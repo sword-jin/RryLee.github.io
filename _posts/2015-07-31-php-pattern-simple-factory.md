@@ -6,6 +6,11 @@ categories: 设计模式
 excerpt: php设计模式英雄联盟篇-简单工厂
 ---
 
+* [工厂模式---简单工厂](http://rrylee.github.io/2015/07/31/php-pattern-simple-factory/)
+* [工厂模式---工厂方法](http://rrylee.github.io/2015/08/25/php-pattern-factorymethod/)
+* [工厂模式---静态工厂](http://rrylee.github.io/2015/08/25/php-pattern-staticfactory/)
+* [工厂模式---抽象工厂](http://rrylee.github.io/2015/08/25/php-pattern-abstructfactory/)
+
 接下来我们来聊聊设计模式中的简单工厂，客户端实例化对象很常用的一个模式。
 
 首先，`简单工厂，即工厂类是实体类，不是继承而来`。这点很重要，后续的工厂类还有 `工厂方法`, `抽象工厂`, `静态工厂`
