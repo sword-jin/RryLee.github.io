@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "laravel中的视图数据共享"
-date:   2015-08-26 15:020
+date:   2015-08-26 15:20
 categories: Laravel
 excerpt: laravel中的视图数据共享
 ---
