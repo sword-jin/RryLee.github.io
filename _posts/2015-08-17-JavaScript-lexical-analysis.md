@@ -29,7 +29,7 @@ excerpt: JavaScript函数执行词法分析
      * 1: 生成 AO = {}
      * 2.1: 分析形参，没有
      * 2.2: 接受形参，没有
-     * 3: 分析 var 声明，var b, 函数内存在局部变量b 为undified, AO 上没有 b 属性, 则 AO = {b: 4}
+     * 3: 分析 var 声明，var b, 函数内存在局部变量b 为undified, AO 上没有 b 属性, 则 AO = {b: undefined}
      * 4: 分析函数声明，没有
      *
      *执行:
