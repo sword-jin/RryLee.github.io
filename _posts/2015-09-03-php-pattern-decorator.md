@@ -62,6 +62,8 @@ excerpt: php设计模式英雄联盟篇-装饰器模式
 
 我们的每个类去 implements 这个接口就可以了，或许可以这样来使用：
 
+![](http://ww1.sinaimg.cn/mw690/baa3278fgw1evpl251hh0j20ic0b9dgl.jpg)
+
     class BasicAttack implements AttackInterface
     {
         public function getDamage()
