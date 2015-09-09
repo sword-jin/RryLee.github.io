@@ -43,7 +43,7 @@ excerpt: php安装redis拓展以及laravel5中redis缓存的使用
 
     "predis/predis": "*"
 
-接下来修改我们的配置文件 chche.php
+接下来修改我们的配置文件 cache.php
 
     'default' => 'redis'
 
