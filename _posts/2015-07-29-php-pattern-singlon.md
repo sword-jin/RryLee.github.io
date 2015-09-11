@@ -79,6 +79,15 @@ excerpt: php设计模式英雄联盟篇-单例模式
     {
         # code...
     }
+
+    /**
+     * 把反序列化方法声明为 private，防止反序列化单例
+     *
+     * @return void
+     */
+    private function __wakeup()
+    {
+    }
     ...
 
 最后，大功告成，未完。。。
