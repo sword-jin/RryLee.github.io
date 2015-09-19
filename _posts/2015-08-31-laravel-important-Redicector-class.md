@@ -2,7 +2,7 @@
 layout: post
 title: "laravel 中重要的 Redirector 类--默认中间件解读"
 date:   2015-08-30 15:50
-categories: 环境
+categories: laravel
 excerpt: laravel5.1 登录 逻辑 源码
 ---
 
