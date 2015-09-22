@@ -66,7 +66,7 @@ excerpt: Bootstrap3-简单的修改让你的导航有所不同
 
         public function __construct(Formula $type)
         {
-            $this->calculator = new $type;
+            $this->calculator = $type;
         }
 
         public function getResult($a, $b)
