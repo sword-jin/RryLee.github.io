@@ -15,11 +15,11 @@ excerpt: 快速打造帅气的sublime编辑器
 
 下面是一些常用的包，但是我在其他同类文章简单的比较少的工具，常用的就不多说了。
 
-* [Laravel 5 Artisan](http://7xly6p.com1.z0.glb.clouddn.com/first.gif)
+* [Laravel 5 Artisan](https://packagecontrol.io/packages/AdvancedNewFile)
 
 > 用来代替命令工具执行 laravle artisan 命令。Ctrl + Shift + P 后查找命令.
 
-![](http://7xly6p.com1.z0.glb.clouddn.com/artisan.gif)
+![](http://7xly6p.com1.z0.glb.clouddn.com/first.gif)
 
 * [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile)
 
