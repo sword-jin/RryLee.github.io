@@ -46,7 +46,7 @@ excerpt: php快速有效的防止csrf攻击
     </body>
     </html>
 
-    // test.php
+    // token.php
     <?php
     session_start();
 
