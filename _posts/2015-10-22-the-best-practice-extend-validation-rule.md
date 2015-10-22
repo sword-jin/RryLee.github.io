@@ -45,6 +45,7 @@ excerpt: laravel 拓展验证规则最佳实践
 * 一般我会在 app 目录下新建 Extends\Validators.php
 * 接着将其添加到 AppServiceProvider.php 下，或者其他服务类：
 
+
     use use Illuminate\Validation\Factory;
 
     public function boot(Factory $validator)
