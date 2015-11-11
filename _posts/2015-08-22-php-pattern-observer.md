@@ -142,8 +142,7 @@ SplObjectStorage 这个接口来帮助储存我们的订阅对象，下面看 de
 
         public function detachObserver(MyObserver $obs)
         {
-            $this->observers = array_filter($this->observers, function($observer)
-            {
+            $this->observers = array_filter($this->observers, function($observer) use ($obs) {
                 return $observer != $obs;
             });
         }
