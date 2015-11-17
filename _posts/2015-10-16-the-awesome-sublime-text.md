@@ -72,7 +72,7 @@ excerpt: 快速打造帅气的sublime编辑器
 
 好吧，动态模版就是这么酷！
 
-# 完美的主题
+# 完美的主题 (可以跳过了，根据喜好选择)
 
 最近来谷歌的 material design 越来越流行，sublime中的[Material theme](https://packagecontrol.io/packages/Material%20Theme) 也做得很好看，但个人总感觉色彩有一些太亮，不符合我喜欢的暗黑风格，也是可以随便改改的。
 
