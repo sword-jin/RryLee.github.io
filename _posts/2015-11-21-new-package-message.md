@@ -9,7 +9,7 @@ excerpt: package laravel 消息提醒包 jQuery toastr
 * content
 {:toc}
 
-> 对使用bootstrap的alert提醒框用腻的同学可以使用 toastr，很轻量.
+> 对使用bootstrap的alert提醒框用腻的同学可以使用 toastr，很轻量，[地址](https://github.com/RryLee/laravel-reminder)
 
 # laravel-reminder
 
