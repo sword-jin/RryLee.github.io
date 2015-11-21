@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[package for laravel]新的消息提醒包-依赖于jQuery的toastr"
+title: "package for laravel-新的消息提醒包-依赖于jQuery的toastr"
 date:   2015-11-21 14:00
 categories: laravel
-excerpt: [package for laravel]新的消息提醒包-依赖于jQuery的toastr
+excerpt: package laravel 消息提醒包 jQuery toastr
 ---
 
 * content
