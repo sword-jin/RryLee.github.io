@@ -15,7 +15,7 @@ excerpt: package laravel 消息提醒包 jQuery toastr
 
 Inspired by [laracasts flash](https://github.com/laracasts/flash)
 
-### install
+### Install
 
 Using Composer
 
