@@ -50,6 +50,10 @@ Then.
     Reminder::error('foo', 'bar', []);
 
     reminder()->info('foo', 'bar', []);
+    
+---
+
+### demo
 
     <?php
     
