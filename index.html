@@ -12,7 +12,7 @@ layout: default
         Posts
       </div>
       <div class="post-list-body">
-        
+
         <div class="all-posts" post-cate="All">
           {% for post in paginator.posts %}
             <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
@@ -48,7 +48,7 @@ layout: default
         {% endif %}
               {% endif %}
       </div>
-      
+
 
 
         </div>
@@ -69,12 +69,12 @@ layout: default
             {% endfor %}
           </div>
         {% endfor %}
-        
+
         <!-- </div> -->
       </div>
-      
 
-     
+
+
     </div>
   </div>
   <div class="col-sm-3">
@@ -82,7 +82,7 @@ layout: default
       <div class="categories-list-header">
         Categories
       </div>
-      
+
       <a href="{{'/index.html' | prepend: site.baseurl}}" class="categories-list-item" cate="All">
         All<span class="my-badge"> {{site.posts | size}}</span>
       </a>
