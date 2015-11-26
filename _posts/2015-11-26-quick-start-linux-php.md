@@ -6,6 +6,11 @@ categories: 环境
 excerpt: RryTip 博客 视频 上线
 ---
 
+* content
+{:toc}
+
+> 有视频参考 [link](http://rrytip.github.io/home/php-tips/build-linux-php-enviroment-with-homestead.html)
+
 # 闲扯
 
 在这个 Docker 越发火热的时代，你是否还在windows下的wamp或者xampp环境下进行php开发，这样未免显得太low，而且windows和实际生产环节也会有较大的区别，那么，何不转移到linux下，vagrant来搭建一个php环境不要太简单。So
