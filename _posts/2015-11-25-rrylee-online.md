@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "RryTip正式上线，欢迎访问"
-date:   2015-11-21 14:00
-categories: laravel
+date:   2015-11-25 14:00
+categories: php
 excerpt: RryTip 博客 视频 上线
 ---
 
