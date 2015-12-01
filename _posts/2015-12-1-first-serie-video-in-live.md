@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "人生第一步完成的视频"
+title: "人生第一部完整的视频"
 date:   2015-12-01 21:55
-categories: 环境
+categories: php
 excerpt: 视频 留言板 jQuery
 ---
 
