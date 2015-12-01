@@ -51,4 +51,4 @@ excerpt: 视频 留言板 jQuery
 
 ---
 
-> [整个项目文件](https://github.com/RryLee/guestbook)
+> [整个项目文件](https://github.com/RryLee/guestbook) [视频下载](http://pan.baidu.com/s/1i3LKhrn)
