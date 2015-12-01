@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "人生第一部完整的视频"
-date:   2015-12-01 21:55
+date:   2015-12-01 21:56
 categories: php
 excerpt: 视频 留言板 jQuery
 ---
@@ -9,7 +9,7 @@ excerpt: 视频 留言板 jQuery
 * content
 {:toc}
 
-> 视频地址, [传送门](http://rrytip.github.io/home/awesome-guestbook/organize-your-project.html)
+> 视频地址, [传送门!](http://rrytip.github.io/home/awesome-guestbook/organize-your-project.html)
 
 # 闲扯
 
