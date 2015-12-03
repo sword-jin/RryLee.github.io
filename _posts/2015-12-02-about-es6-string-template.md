@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ES6中的字符串模版详解"
-date:   2015-12-03 12:00
+date:   2015-12-02 12:00
 categories: javascript
 excerpt: ecmascript6 字符串模版 string-template
 ---
@@ -65,7 +65,7 @@ excerpt: ecmascript6 字符串模版 string-template
 
 ---
 
-#　自定义tag
+# 自定义tag
 
     function age(strings, ...values) {
       if (values[0] == 'Rry') {
