@@ -65,7 +65,7 @@ excerpt: ecmascript6 字符串模版 string-template
 
 ---
 
-#　自定义tag
+# 自定义tag
 
     function age(strings, ...values) {
       if (values[0] == 'Rry') {
