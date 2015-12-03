@@ -98,6 +98,19 @@ excerpt: javascript bind
 
 这样就之后传递的参数就会在初始参数之后。
 
+或许这样看起来更加直接
+
+    function Foo () {
+    }
+    Foo.prototype.foo = "Bar";
+
+    function logFoo(str) {
+        console.log(str, this.foo);
+    }
+
+    var foo = new Foo();
+    logFoo.bind(foo)("Hi RryTip");
+
 # 总结
 
 这里基本只讲了bind的基本使用，但是从其他前端框架的发展来看，bind的优势有很多的，它让你的代码变得更加简洁，避免了很多不必要的变量(存放上文this)，所以，还请在工作中多去尝试bind
