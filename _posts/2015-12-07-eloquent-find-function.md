@@ -1,15 +1,13 @@
 ---
 layout: post
 title: "看看Eloquent中的find方法"
-date:   2015-12-07 17:03
+date:   2015-12-07 17:00
 categories: laravel
-excerpt: laravel eloquent find
+excerpt: laravel eloquent find function
 ---
 
 * content
 {:toc}
-
-# 起因
 
 在我们的 `User` 模型中写上这样一个方法
 
@@ -40,13 +38,19 @@ excerpt: laravel eloquent find
 
 既然在5.1的 `model` 中没有找到 `find()` 这个方法，然后在具体模型又可以去调用这个方法，想必只有一个可能吧
 
-**__call()__** 这个魔术方法
+**__call()__** 和 **__callStatic()__** 这个两个魔术方法
 
-那我们在 `model` 中去找到 `__call()` 这个方法
+那我们在 `model` 中去找到 `__call()`, `__callStatic()`
 
 ![](http://ww2.sinaimg.cn/mw690/baa3278fgw1eyr7dn0uzjj20jc0ez0u2.jpg)
 
-如果你愿意，在 `return` 之前随便 `dd` 以下，然后调用我们的 `getUserById()` 肯定是会断点的。
+![](http://ww2.sinaimg.cn/mw690/baa3278fgw1eyrggn2sjuj20hk0d5dgj.jpg)
+
+可以看到，当触发 `__callStatic()` 是会去触发 `__call()`
+
+> 原来我们使用的 `User::find(1)` `$user = new User;$user->find(1)` 就来自于此
+
+如果你愿意，在`__call()` 的 `return` 之前随便 `dd` 以下，然后调用我们的 `getUserById()` 肯定是会断点的。
 
 `increment()` 和 `decrement()` 就不用多说，只是对某个字段进行加减
 
@@ -111,3 +115,4 @@ Illuminate\Database\Eloquent\Builder 的构造方法
 如果你多看一些的话，你会发现，和数据库操作更加耦合的一部分方法都被移到了 `Eloquent\Builder`，这大概也是 Eloquent 的一次重要升级吧。
 
 > 能力有些，有不好的错误的还请指正。
+
