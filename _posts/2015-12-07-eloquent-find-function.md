@@ -102,7 +102,7 @@ Illuminate\Database\Eloquent\Builder 的构造方法
 
 ![](http://ww1.sinaimg.cn/mw690/baa3278fgw1eyrfo08un6j20om0hb0tz.jpg)
 
-这样看就比较简单了，调用 `model` 的 `getQualifiedKeyName()` 拿到主键，然后使用底层 `builder` 的 `where()` 去查询数据库...
+这样看就比较简单了，调用 `model` 的 `getQualifiedKeyName()` 拿到主键，然后使用 `__call` 来调用 `where()` 去查询数据库...
 
 # 结论
 
