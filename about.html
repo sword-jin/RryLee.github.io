@@ -1,0 +1,99 @@
+---
+layout: page
+title: "关于"
+description: 好想成为全栈啊
+header-img: "img/about-bg.jpg"
+---
+
+<!-- Chinese Version -->
+<blockquote>
+    写写代码，做做视频<br>
+    努力成为一名全栈！！！
+</blockquote>
+
+<p>
+程序员，PHP 程序员，2015 创办<a href="http://rrytip.github.io">RryTip</a> 个人视频分享站。迷恋 <a href="https://laravel.com">laravel</a>，偏爱 <a href="http://www.slimframework.com/">Slim</a>。热衷 JavaScript，从 jQuery 到 Angular。喜欢 CSS3 动画，但不可否定个人并没有什么艺术细胞。
+</p>
+
+<p>
+半吊子设计狮，因为只会做自己想到的，并不能独当一面去完成作品。
+</p>
+
+<p>
+大四毕业生，目前就读与湖北工业大学计算机学院，大学没学好课程，都是自己乱学的。
+</p>
+
+<p>
+生活，虽然向往稳定的外出活动，但是目前并不能做到这样，大一时曾经骑行 120 公里回家！！！
+</p>
+
+<p>
+我叫李锐，有兴趣请看看 <a href="http://rrytip.github.io">RryTip</a>
+</p>
+
+<hr>
+<br>
+最后附上认真版的简历:
+<ul>
+    <li><a href="{{site.baseUrl}}/attach/rrylee.pdf"> Rrylee </a></li>
+</ul>
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+    <div class="ds-thread"
+    {% if site.duoshuo_username == "huxblog" %}
+        data-thread-id="1187623191091085319"
+    {% else %}
+        data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/"></div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = '{{site.duoshuo_username}}';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}

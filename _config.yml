@@ -1,0 +1,81 @@
+# Site settings
+title: 知易行难
+SEOTitle: 知易行难 -- 李锐的博客
+header-img: img/home-bg.jpg
+email: rrylee1994@gmail.com
+description: "PHP, JavaScript 爱好者，爱分享，爱写博客，爱读文章，广交朋友"
+keyword: "李锐, RryLee, PHP, 全栈, Laravel, @RryLee, 李锐的博客, RryLee Blog, 博客, 个人网站, 互联网, 前端, 设计, 陈曦(表白，喜欢你快7年了)"
+url: "http://rrylee.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     rrylee
+# zhihu_username:     huxpro
+github_username:    rrylee
+twitter_username:  qq215672398
+# facebook_username:  huxpro
+
+
+
+# Build settings
+highlighter: pygments
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: rrylee
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: e724980adba2a0a03e23e91050f8ae2d
+# Google Analytics
+ga_track_id: 'UA-71765388-1'            # Format: UA-xxxxxx-xx
+ga_domain: rrylee.github.io
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写写代码，写写博客，录录视频"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        "title": "RryTip 视频分享",
+        "href": "http://rrytip.github.io/"
+    }
+]
