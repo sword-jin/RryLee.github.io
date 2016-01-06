@@ -56,7 +56,7 @@ tags:
 
 关于 [defineProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 和 [defineProperties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties) 可以自定义的属性的一些权限，可点击链接查看
 
-# Object.create
+### Object.create
 
 你可以使用 [Object.create](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) 这个方法来创建对象，在 ES5 中，我们通过对传入一个函数对象的prototype属性来完成原型链的继承
 
@@ -79,7 +79,7 @@ tags:
         }
     });
 
-# 函数对象
+### 函数对象
 
 这 js 中有函数对象和普通对象的区分，看下面的例子体会
 
@@ -102,5 +102,9 @@ tags:
     var RryTip = new Person("Rry", "Tip");
 
 这样就得到了两个普通对象，它们的 __proto__ 指向 Person 的 prototype!
+
+# 总结
+
+干货不多，谢阅，XD
 
 <a class="jsbin-embed" href="http://jsbin.com/jujibod/embed?js,console">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.5"></script>
