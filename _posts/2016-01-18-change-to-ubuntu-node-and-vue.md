@@ -37,7 +37,7 @@ tags:
 
 这里感觉和 `laravel` 很像了，直接 `vue init webpack-simple vue-learn` 这样就建好了一个名为 `vue-learn` 的 webpack 项目，当然还有其他选择，可以参考文档。
 
-`npm dev`
+`npm run dev` [可到package.json中查找]
 
 启动成功！
 
