@@ -33,24 +33,24 @@ tags:
 
 `space` 为可选参数，`String` 或 `Number`
 
-  var input = {
-      name: 'RryLee',
-      age: 20
-  }
-  JSON.stringify(input, null, 2);
-  /*
-  "{
-    \"name\": \"RryLee\",
-    \"age\": 20
-  }"
-  */
-  JSON.stringify(input, null, 2);
-  /*
-  "{
-  RryTip\"name\": \"RryLee\",
-  RryTip\"age\": 20
-  }"
-  */
+      var input = {
+          name: 'RryLee',
+          age: 20
+      }
+      JSON.stringify(input, null, 2);
+      /*
+      "{
+        \"name\": \"RryLee\",
+        \"age\": 20
+      }"
+      */
+      JSON.stringify(input, null, 2);
+      /*
+      "{
+      RryTip\"name\": \"RryLee\",
+      RryTip\"age\": 20
+      }"
+      */
 
 ### 添加 Replacer 方法
 
