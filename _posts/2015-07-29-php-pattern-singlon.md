@@ -30,16 +30,16 @@ tags:
 
     class CommonPerproties
     {
-        // 这里全部改为 protected 属性，以防止子类修改
-        protected $backtime = 8;
-        protected $skillNum = 3;
-        protected $maxRank  = 18;
+        // 这里全部改为 private 属性，以防止子类修改
+        private $backtime = 8;
+        private $skillNum = 3;
+        private $maxRank  = 18;
 
         // 该类的实例对象
         protected static $instance;
 
-        // 这里修改构造方法属性为 protected，表示该类不能通过 new 来实例化
-        protected function __construct()
+        // 这里修改构造方法属性为 private，表示该类不能通过 new 来实例化
+        private function __construct()
         {
 
         }
@@ -78,7 +78,7 @@ tags:
 
     ...
     // 防止外部使用 clone 魔术方法
-    protected function __clone()
+    private function __clone()
     {
         # code...
     }
