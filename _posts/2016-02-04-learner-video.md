@@ -5,8 +5,7 @@ subtitle:   ""
 date:   2016-02-04
 author: "RryLee"
 tags:
-    - php
-    - Eloquent
+    - learner
 ---
 
 * content
