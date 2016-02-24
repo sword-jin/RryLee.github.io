@@ -1,16 +1,3 @@
----
-layout: post
-title: "[笔记]Ubuntu下安装node开发vue应用"
-subtitle:   ""
-date:   2016-01-18
-author: "RryLee"
-tags:
-    - 环境
----
-
-* content
-{:toc}
-
 # 故事
 
 最近由于种种原因，突然爱上了 `Ubuntu`，本来是计划换 `mac` 的，现在看来貌似没有这个需求了，相反 `linux` 能更好的工作。php 方面的工作基本转移成功，现在就是 node 这边的一些笔记了。
@@ -41,10 +28,10 @@ tags:
 
 启动成功！
 
-<img src="/img/posts/vue-result.png" class="shadow">
+<img src="/img/posts/vue-result.png" class="img-responsive">
 
 # 秀一下我的 Ubuntu
 
-<img src="/img/posts/ubuntu-desktop.png" class="shadow">
+<img src="/img/posts/ubuntu-desktop.png" class="img-responsive">
 
 > 颜值这么高，win的朋友还不换吗! 以后 [RryTip](http://rrytip.github.io) 的视频将换到 ubuntu 下录制
