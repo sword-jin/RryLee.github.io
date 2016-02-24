@@ -38,7 +38,11 @@ tags:
         // 该类的实例对象
         private static $instance;
 
+<<<<<<< HEAD
         // 这里修改构造方法属性为 protected，表示该类不能通过 new 来实例化
+=======
+        // 这里修改构造方法属性为 private，表示该类不能通过 new 来实例化
+>>>>>>> b0321639829991bff67c78ada25720756da720f3
         private function __construct()
         {
 
@@ -78,7 +82,11 @@ tags:
 
     ...
     // 防止外部使用 clone 魔术方法
+<<<<<<< HEAD
     pricate function __clone()
+=======
+    private function __clone()
+>>>>>>> b0321639829991bff67c78ada25720756da720f3
     {
         # code...
     }
