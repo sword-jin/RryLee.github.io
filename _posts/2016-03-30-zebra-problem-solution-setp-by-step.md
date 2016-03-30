@@ -41,18 +41,48 @@ fang
 
 属性
 ```plain
-color
-Nationality (国家)
-Drink
-Smoke
-Pet
+color  --  $red, $green, $ivory, $yellow, $blue
+Nationality (国家)  --  $Englishman, $Spaniard, $Ukrainian, $Norwegian, $Japanese
+Drink -- $coffee, $tea, $milk, $oj, $WATER
+Smoke -- $OldGold, $Kools, $Chesterfields, $LuckyStrike, $Parliaments
+Pet -- $dog, $snail, $fox, $horse, $ZEBRA
 ```
 
 需要在满足所有条件的情况下讲这五个属性分给五个房间，大概就是这么一个思路。
-那么我们一共有　5! ** 5 种情况。
+那么我们一共有 5! ** 5 种情况。
 
 先将房间和这些属性都抽象成 1,2,3,4,5
 
 这里拿第二个条件说，就是 Englishman == red，因为他们都属于一个房间的属性，所以值必然相等。
 
 当然，还有 6 , 11 这种条件，我们只需要加上两个方法即可。
+
+```php
+/**
+ * Determinate the right of relation.
+ *
+ * @param  int $n
+ * @param  int $m
+ *
+ * @return boolean
+ */
+function rightOf($n, $m) {
+    return $n == $m + 1;
+}
+ 
+/**
+ * Determinate the neighbouring relations
+ *
+ * @param  int $n
+ * @param  int $m
+ *
+ * @return boolean
+ */
+function nextTo($n, $m) {
+    return abs($n - $m) == 1;
+}
+```
+
+# 代码
+
+<script src="http://ideone.com/e.js/dKElR2" type="text/javascript" ></script>
