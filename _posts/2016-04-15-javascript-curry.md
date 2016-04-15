@@ -2,7 +2,7 @@
 layout: post
 title: "JavaScript curry详解"
 subtitle:   ""
-date:   2016-04-16
+date:   2016-04-15
 author: "RryLee"
 tags:
     - javascript
