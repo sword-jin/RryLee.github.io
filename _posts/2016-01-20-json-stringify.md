@@ -5,8 +5,7 @@ subtitle:   ""
 date:   2016-01-20
 author: "RryLee"
 tags:
-    - php
-    - Eloquent
+    - javascript
 ---
 
 * content
