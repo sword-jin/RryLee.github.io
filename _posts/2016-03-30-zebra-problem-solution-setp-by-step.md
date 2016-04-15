@@ -40,13 +40,12 @@ fang
 首先，每个房间有 5 个属性，加上上面的若干条件限制。
 
 属性
-```plain
-color  --  $red, $green, $ivory, $yellow, $blue
-Nationality (国家)  --  $Englishman, $Spaniard, $Ukrainian, $Norwegian, $Japanese
-Drink -- $coffee, $tea, $milk, $oj, $WATER
-Smoke -- $OldGold, $Kools, $Chesterfields, $LuckyStrike, $Parliaments
-Pet -- $dog, $snail, $fox, $horse, $ZEBRA
-```
+
+    color  --  $red, $green, $ivory, $yellow, $blue
+    Nationality (国家)  --  $Englishman, $Spaniard, $Ukrainian, $Norwegian, $Japanese
+    Drink -- $coffee, $tea, $milk, $oj, $WATER
+    Smoke -- $OldGold, $Kools, $Chesterfields, $LuckyStrike, $Parliaments
+    Pet -- $dog, $snail, $fox, $horse, $ZEBRA
 
 需要在满足所有条件的情况下讲这五个属性分给五个房间，大概就是这么一个思路。
 那么我们一共有 5! ** 5 种情况。
