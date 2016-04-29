@@ -1,3 +1,16 @@
+---
+layout: post
+title: "给 phper 的 react 快速入门介绍[ES6]"
+subtitle:   ""
+date:   2016-04-29
+author: "RryLee"
+tags:
+    - 算法
+---
+
+* content
+{:toc}
+
 > 最近在学习 [React](facebook.github.io/react/index.html)，这里根据[官方教程](http://facebook.github.io/react/docs/tutorial.html)做了一些改进，也就是 `react es6` 的版本。
 
 # 官方教程
