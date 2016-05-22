@@ -62,3 +62,15 @@ tags:
 
 接着愉快的写 js 代码了，详细强迫症的我们会自行调整不规范的代码。
 
+> 补充
+
+你可以通过 `npm install -g eslint` 来全局安装 eslint，如果你使用 atom，可以选择 `Use global ESLint installation`
+
+如果编辑器报错的话，参考 [issues 261](https://github.com/AtomLinter/linter-eslint/issues/261)，在 atom config 文件中加上
+
+```cson
+"linter-eslint":
+    globalNodePath: "/usr/local"
+    useGlobalEslint: true
+```
+
