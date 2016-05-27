@@ -5,7 +5,7 @@ subtitle:   ""
 date:   2016-04-29
 author: "RryLee"
 tags:
-    - 算法
+    - javascript
 ---
 
 * content
