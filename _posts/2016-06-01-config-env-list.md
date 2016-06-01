@@ -25,9 +25,13 @@ windows 下最让人不堪的就是命令行工具了，使用 cmder 可以让�
 
 wget 工具，windows 下有时候还是需要的
 
-* [Internet Download Manager](http://www.internetdownloadmanager.com/) windows 下最喜欢的工具，linux 下至今没有寻找到可以媲美的工具。
+* [Internet Download Manager](http://www.internetdownloadmanager.com/) 
 
-* [WhatPluse](https://whatpulse.org/) 全程记录键盘使用，两年后可能会有 sublime 100000000 次点击，当然，还有其他功能
+windows 下最喜欢的工具，linux 下至今没有寻找到可以媲美的工具。
+
+* [WhatPluse](https://whatpulse.org/) 
+
+全程记录键盘使用，两年后可能会有 sublime 100000000 次点击，当然，还有其他功能
 
 # 代码工具
 
