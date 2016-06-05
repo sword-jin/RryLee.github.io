@@ -108,7 +108,7 @@ windows 下最喜欢的工具，linux 下至今没有寻找到可以媲美的工
     * [Material Theme](https://packagecontrol.io/packages/Material%20Theme) (脑补，XD)
     
     * [Boxy Theme](https://packagecontrol.io/packages/Boxy%20Theme)
-    ![](http://upload-images.jianshu.io/upload_images/2195453-a354d9fc1128e99d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![](http://ww2.sinaimg.cn/large/74311666jw1f4kso82nkyj20w00j8td9.jpg)
 
 * Atom (和 sublime 基本差不多)
     
@@ -151,7 +151,7 @@ windows 下最喜欢的工具，linux 下至今没有寻找到可以媲美的工
     * Atom Material 主题
     
     * Nucleus Dark(ing) 主题
-    ![](http://upload-images.jianshu.io/upload_images/2195453-aa41bfaad318028c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![](http://ww2.sinaimg.cn/large/74311666jw1f4ksnmt47cj20yg0i1gok.jpg)
 
     * atom-material-ui 配色
     
