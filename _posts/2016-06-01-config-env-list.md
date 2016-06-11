@@ -79,14 +79,14 @@ windows 下最喜欢的工具，linux 下至今没有寻找到可以媲美的工
     
     * [PHP Companion](https://packagecontrol.io/packages/PHP%20Companion) - php 函数跳转，命名空间处理神器　（我的改建）
     
-    ```json
-    { "keys": ["f6"], "command": "expand_fqcn" },
-    { "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
-    { "keys": ["f5"], "command": "find_use" },
-    { "keys": ["f4"], "command": "import_namespace" },
-    { "keys": ["f12"], "command": "goto_definition_scope" },
-    { "keys": ["ctrl+1"], "command": "insert_php_constructor_property" }
-    ```    
+```json
+{ "keys": ["f6"], "command": "expand_fqcn" },
+{ "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+{ "keys": ["f5"], "command": "find_use" },
+{ "keys": ["f4"], "command": "import_namespace" },
+{ "keys": ["f12"], "command": "goto_definition_scope" },
+{ "keys": ["ctrl+1"], "command": "insert_php_constructor_property" }
+```    
 
     * [PHP Getters and Setter](https://packagecontrol.io/packages/PHP%20Getters%20and%20Setters) - 属性的get set代码生成，有时候还可以
     
