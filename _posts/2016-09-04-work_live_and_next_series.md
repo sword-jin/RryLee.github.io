@@ -1,14 +1,17 @@
 ----
- -layout: post
- -title: "[laravel 福利时间]工作，生活，和一些计划"
- -subtitle:   ""
- -date:   2016-09-04
- -author: "RryLee"
- -tags:
+layout: post
+title: "[laravel 福利时间]工作，生活，和一些计划"
+subtitle:   ""
+date:   2016-09-04
+author: "RryLee"
+tags:
     - 生活
     - 工作
     - laravel
- ----
+---
+
+* content
+{:toc}
 
 > 感觉，已经很久很久没有更新博客了，来北京工作快两个月了，很忙很累，却又不敢和人提起，就我觉得，生活中全工作是一件很不负责任的事情。所以，今天重点在工作生活。
 
