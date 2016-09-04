@@ -1,4 +1,4 @@
-----
+---
 layout: post
 title: "[laravel 福利时间]工作，生活，和一些计划"
 subtitle:   ""
